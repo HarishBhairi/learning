@@ -1,0 +1,21 @@
+# Private — contains former-employer internal references (ticket IDs, incident numbers,
+# internal hosts). Personal lookup only. Never publish.
+job-search/EVIDENCE-PACK.md
+
+# Kiro workspace settings (may hold MCP server config / credentials)
+.kiro/settings/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+# Node
+node_modules/
+
+# Local env
+.env
+.env.*
+*.pfx
+*.snk
